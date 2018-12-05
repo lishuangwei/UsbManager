@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_palette_blue_primary</item>
+        <item name="colorPrimaryDark">@color/material_palette_blue_primary_dark</item>
+        <item name="colorAccent">@color/material_palette_blue_primary_dark</item>
+        <item name="android:windowBackground">@color/default_background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="primary_text_appearance">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/black_transparent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary_text_appearance">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/black_transparent</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FileManager.NavigationActionBar" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="dialog_title_text_appearance">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textColor">@color/material_palette_blue_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

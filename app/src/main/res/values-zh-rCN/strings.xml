@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * (C) Copyright 2014 mjahnen <jahnen@in.tum.de>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="app_name">文件管理器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="delete">刪除</string>
+    <string name="create_file">新建文件</string>
+    <string name="create_dir">新建文件夾</string>
+    <string name="create_big_file">新建超大文件</string>
+    <string name="rename">重命名</string>
+    <string name="rename_msg">请输入重命名的名称</string>
+    <string name="paste">黏贴</string>
+    <string name="move">剪切</string>
+    <string name="name">文件名:</string>
+    <string name="content">内容:</string>
+    <string name="directory">文件夹</string>
+    <string name="file">文件</string>
+    <string name="start_http_server">Serve via HTTP Server</string>
+    <string name="stop_http_server">Stop HTTP Server</string>
+    <string name="run_tests">运行测试</string>
+    <string name="run_storage_provider">运行StorageProvider</string>
+    <string name="copy_to_usb">复制文件到存储设备</string>
+    <string name="request_write_storage_perm">请让这个应用程序访问您的存储,以便从USB复制文件</string>
+    <string name="permission_granted">权限已同意,请重新尝试.</string>
+    <string name="permission_denied">权限被拒绝, 不能从USB复制.</string>
+    <string name="copy_folder_to_usb">复制文件夹内容到存储设备</string>
+    <string name="drawer_open">显示设备</string>
+    <string name="drawer_close">关闭</string>
+    <string name="title_no_device">无设备</string>
+    <string name="title_device">设备</string>
+    <string name="open_error">找不到打开此文件的用用程序！</string>
+    <string name="delete_ok">删除成功!</string>
+    <string name="delete_fail">删除失败!</string>
+    <string name="copy_from_usb">复制文件到本地</string>
+    <string name="copy_to_local_success">复制成功!文件路径为%1$s</string>
+    <string name="storage_root">USB-存储</string>
+    <string name="create_success">创建成功！</string>
+    <string name="create_fail">创建失败！</string>
+    <string name="copy_to_usb_success">%1$s 复制成功!</string>
+    <string name="copy_to_usb_failed">%1$s 复制失败!</string>
+
+    <string name="dialog_new_file_name_hint">请输入文件名</string>
+    <string name="dialog_new_file_conetnt_hint">请输入内容</string>
+    <string name="dialog_new_directory">新建文件夹</string>
+    <string name="dialog_new_directory_msg">请输入新文件夹名</string>
+    <string name="dialog_new_file">新文件</string>
+    <string name="dialog_new_file_msg">请输入新文件名,可以尝试写入内容 </string>
+    <string name="dialog_copy_title">复制文件</string>
+    <string name="dialog_copy_message">将文件复制到内部存储,这可能需要一些时间!</string>
+    <string name="dialog_copy_to_usb">复制本地文件到USB存储器,这可能需要一些时间!</string>
+    <string name="dialog_copy_to_local">复制文件到本地存储,这可能需要一些时间!</string>
+    <string name="dialog_copy_afolder">复制文件夹</string>
+    <string name="dialog_copy_afolder_message">复制本地文件夹到USB存储器,这可能需要一些时间!</string>
+</resources>

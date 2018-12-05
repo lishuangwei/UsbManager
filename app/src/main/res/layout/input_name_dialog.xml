@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/input_name_dialog_label"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/smallest_row_height"
+      android:layout_marginEnd="@dimen/extra_large_margin"
+      android:layout_marginStart="@dimen/extra_large_margin"
+      android:gravity="start|center_vertical"
+      android:text="@string/name"
+      android:textAppearance="@style/primary_text_appearance"
+      android:textSize="@dimen/primary_sm_text_size"
+      android:textStyle="normal" />
+
+  <EditText
+      android:id="@+id/input_name_dialog_edit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/extra_large_margin"
+      android:layout_marginStart="@dimen/extra_large_margin"
+      android:ems="@integer/default_edit_text_ems"
+      android:imeOptions="actionDone|flagNoFullscreen"
+      android:inputType="textNoSuggestions"
+      android:maxLength="255"
+      android:scrollHorizontally="true"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/primary_sm_text_size"
+      android:textStyle="normal">
+    <requestFocus />
+  </EditText>
+
+  <TextView
+      android:id="@+id/input_content_dialog_label"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/smallest_row_height"
+      android:layout_marginEnd="@dimen/extra_large_margin"
+      android:layout_marginStart="@dimen/extra_large_margin"
+      android:gravity="start|center_vertical"
+      android:text="@string/content"
+      android:textSize="@dimen/primary_sm_text_size"
+      android:textAppearance="@style/primary_text_appearance"
+      android:textStyle="normal" />
+
+  <EditText
+      android:id="@+id/input_content_dialog_edit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/extra_large_margin"
+      android:layout_marginStart="@dimen/extra_large_margin"
+      android:ems="@integer/default_edit_text_ems"
+      android:imeOptions="actionDone|flagNoFullscreen"
+      android:inputType="textNoSuggestions"
+      android:maxLength="255"
+      android:scrollHorizontally="true"
+      android:selectAllOnFocus="true"
+      android:textSize="@dimen/primary_sm_text_size"
+      android:textStyle="normal">
+  </EditText>
+
+  <TextView
+      android:id="@+id/input_name_dialog_message"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_marginEnd="@dimen/extra_large_margin"
+      android:layout_marginStart="@dimen/extra_large_margin"
+      android:contentDescription="@null"
+      android:drawablePadding="@dimen/default_margin"
+      android:drawableStart="@drawable/ic_material_light_fs_warning"
+      android:drawableTint="@color/colorPrimaryDark"
+      android:gravity="start|center_vertical"
+      android:singleLine="false"
+      android:text="@null"
+      android:textAppearance="@style/secondary_text_appearance"
+      android:textColor="@color/material_palette_blue_primary_dark"
+      android:textSize="@dimen/note_text_size"
+      android:visibility="gone" />
+
+</LinearLayout>
